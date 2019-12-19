@@ -12,10 +12,10 @@ Modules have hooks on `include` and `extend`, among others. These will run every
 | license                 |  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][mit] |
 | download rank           |  [![Downloads Today](https://img.shields.io/gem/rd/include_with_respect.svg)](https://github.com/pboling/include_with_respect) |
 | version                 |  [![Version](https://img.shields.io/gem/v/include_with_respect.svg)][rubygems] |
-| dependencies            |   |
+| dependencies            |  [![Depfu](https://badges.depfu.com/badges/7ab03542cae3755d64038f7b3e7af53e/count.svg)](https://depfu.com/github/pboling/include_with_respect?project_id=10361) |
 | continuous integration  |  [![Build Status](https://travis-ci.org/pboling/include_with_respect.svg?branch=master)](https://travis-ci.org/pboling/include_with_respect) |
-| test coverage           |   |
-| maintainability         |   |
+| test coverage           |  [![Test Coverage](https://api.codeclimate.com/v1/badges/604a8f3a996c008cb2ae/test_coverage)](https://codeclimate.com/github/pboling/include_with_respect/test_coverage) |
+| maintainability         |  [![Maintainability](https://api.codeclimate.com/v1/badges/604a8f3a996c008cb2ae/maintainability)](https://codeclimate.com/github/pboling/include_with_respect/maintainability) |
 | code triage             |  [![Open Source Helpers](https://www.codetriage.com/pboling/include_with_respect/badges/users.svg)](https://www.codetriage.com/pboling/include_with_respect) |
 | FOSSA Licenses | [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpboling%2Finclude_with_respect.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpboling%2Finclude_with_respect?ref=badge_shield) |
 | homepage                |  [on Github.com][homepage], [on Railsbling.com][blogpage] |
