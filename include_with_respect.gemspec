@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['peter.boling@gmail.com']
 
   spec.summary       = 'Untangle dependency trees'
+  spec.description   = 'Find out if your Module include/extend hooks are misbehaving!'
   spec.homepage      = 'http://github.com/pboling/include_with_respect'
 
   spec.metadata['homepage_uri'] = spec.homepage
