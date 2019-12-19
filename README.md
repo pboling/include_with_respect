@@ -114,3 +114,4 @@ For example:
 [coderwall]: http://coderwall.com/pboling
 [twitter-followers]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow
 [twitter]: http://twitter.com/galtzo
+[blogpage]: http://www.railsbling.com/include_with_respect
