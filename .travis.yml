@@ -4,7 +4,7 @@ cache:
   bundler: true
 env:
   global:
-    CC_TEST_REPORTER_ID=
+    CC_TEST_REPORTER_ID=da3f62293bf581a89f1401a183a4ee30e43c2f150913635992062367771ddfd9
 before_install:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
