@@ -10,7 +10,7 @@ Modules have hooks on `include` and `extend`, among others. These will run every
 |------------------------ | ----------------------- |
 | gem name                |  [include_with_respect][rubygems] |
 | license                 |  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][mit] |
-| download rank           |  [![Downloads Today](https://img.shields.io/gem/rd/include_with_respect.svg)](https://github.com/pboling/include_with_respect) |
+| download rank           |  [![Downloads Today](https://img.shields.io/gem/rd/include_with_respect.svg)][github] |
 | version                 |  [![Version](https://img.shields.io/gem/v/include_with_respect.svg)][rubygems] |
 | dependencies            |  [![Depfu](https://badges.depfu.com/badges/7ab03542cae3755d64038f7b3e7af53e/count.svg)](https://depfu.com/github/pboling/include_with_respect?project_id=10361) |
 | continuous integration  |  [![Build Status](https://travis-ci.org/pboling/include_with_respect.svg?branch=master)](https://travis-ci.org/pboling/include_with_respect) |
@@ -94,7 +94,7 @@ For example:
 
 ## Legal
 
-* [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+* [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][mit]
 * Copyright (c) 2019 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
 
 [semver]: http://semver.org/
@@ -114,3 +114,4 @@ For example:
 [twitter-followers]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow
 [twitter]: http://twitter.com/galtzo
 [blogpage]: http://www.railsbling.com/include_with_respect
+[github]: https://github.com/pboling/include_with_respect
