@@ -10,11 +10,15 @@ require 'include_with_respect/module_with_respect'
 require 'include_with_respect/concern_with_respect' if defined?(ActiveSupport)
 
 # [Sometimes] We should respect our ancestors.
+#
+# ## Raw Usage (see lib/include_with_respect/module_with_respect for the non-intrusive interface)
+#
 # If you swap `include` for `include_with_respect`, when a module is already among our ancestors does not re-include it.
 # Why?
 #   Some modules have side effects on the `included` hook which can be problematic if they run more than once.
 #   Additionally, including a module multiple times will override the original include,
 #     but in a messy way, with potentially dangerous side effects and shared state.
+#
 module IncludeWithRespect
   class Error < StandardError; end
 

@@ -40,7 +40,45 @@ Or install it yourself as:
 
 ## Usage
 
-### Example Use with `ActiveSupport::Concern`
+
+### With Ruby `Class`:
+
+```ruby
+module SomeOtherModule
+  def self.included(base)
+    base.send(:include, SomeModule)
+  end
+end
+
+class MyClass
+  include IncludeWithRespect::ModuleWithRespect
+  include SomeModule
+  include SomeOtherModule
+end
+```
+
+Because `SomeOtherModule` also includes `SomeModule` two things will happen that normally do not:
+1. a warning will be printed (via `puts`)
+2. the duplicate inclusion will be skipped (meaning the hooks will not run again)
+  - This is a major change in the behavior of including modules, but normally hooks running multiple times is not desired, or intended, which is why this gem exists!
+
+### With Ruby `Module`:
+
+```ruby
+module MyModule
+  def self.included(base)
+    base.send(:include, IncludeWithRespect::ModuleWithRespect)
+    base.send(:include, SomeModule)
+  end
+end
+```
+
+Then if `MyModule` is included somewhere that also includes `SomeModule` two things will happen that normally do not:
+1. a warning will be printed (via `puts`)
+2. the duplicate inclusion will be skipped (meaning the hooks will not run again)
+  - This is a major change in the behavior of including modules, but normally hooks running multiple times is not desired, or intended, which is why this gem exists!
+
+### With Rails' `ActiveSupport::Concern`
 
 ```ruby
 module MyConcern
@@ -56,6 +94,24 @@ Then if `MyConcern` is included somewhere that also includes `SomeOtherConcern` 
 1. a warning will be printed (via `puts`)
 2. the duplicate inclusion will be skipped (meaning the hooks will not run again)
   - This is a major change in the behavior of including modules, but normally hooks running multiple times is not desired, or intended, which is why this gem exists!
+
+### Raw Usage (more intrusive code changes)
+
+```ruby
+module SomeOtherModule
+  def self.included(base)
+    base.send(:include, SomeModule)
+  end
+end
+
+class MyClass
+  include IncludeWithRespect
+  include_with_respect SomeModule
+  include_with_respect SomeOtherModule
+end
+```
+
+Same results as the other usage examples.
 
 ## Development
 

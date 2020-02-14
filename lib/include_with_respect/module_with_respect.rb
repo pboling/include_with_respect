@@ -3,7 +3,7 @@
 # Usage in a class:
 #
 #   class MyClass
-#     using IncludeWithRespect::ModuleWithRespect
+#     include IncludeWithRespect::ModuleWithRespect
 #     include SomeOtherConcern
 #   end
 #
