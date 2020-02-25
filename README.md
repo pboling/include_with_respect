@@ -9,6 +9,7 @@ Modules have hooks on `include` and `extend`, among others. These will run every
 | Project                 |  IncludeWithRespect |
 |------------------------ | ----------------------- |
 | gem name                |  [include_with_respect][rubygems] |
+| compatibility           |  Ruby 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7 |
 | license                 |  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][mit] |
 | download rank           |  [![Downloads Today](https://img.shields.io/gem/rd/include_with_respect.svg)][github] |
 | version                 |  [![Version](https://img.shields.io/gem/v/include_with_respect.svg)][rubygems] |

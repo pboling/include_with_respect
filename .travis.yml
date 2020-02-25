@@ -11,7 +11,7 @@ before_install:
   - ./cc-test-reporter before-build
   - gem install bundler:1.17.3
 install:
-  - bundle install --path=${BUNDLE_PATH:-vendor/bundle}  # Install ruby gems
+  - bundle install --path=${BUNDLE_PATH:-vendor/bundle} --no-deployment --jobs 3 --retry 3
 script:
   # - bundle exec rubocop -DESP           # linting
   - bundle exec rake                    # specs
