@@ -20,8 +20,7 @@ Modules have hooks on `include` and `extend`, among others. These will run every
 | code triage             |  [![Open Source Helpers](https://www.codetriage.com/pboling/include_with_respect/badges/users.svg)](https://www.codetriage.com/pboling/include_with_respect) |
 | homepage                |  [on Github.com][homepage], [on Railsbling.com][blogpage] |
 | documentation           |  [on RDoc.info][documentation] |
-| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌍 🌎 🌏][about-me], [🍚][crowdrise], [👼][angel-list], [🐛][topcoder], [:shipit:][coderwall], [![Tweet Peter][twitter-followers]][twitter] |
-
+| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo), [🌹](https://nationalprogressiveparty.org) |
 
 ## Installation
 
