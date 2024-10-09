@@ -19,8 +19,8 @@ Modules have hooks on `include` and `extend`, among others. These will run every
 | maintainability         |  [![Maintainability](https://api.codeclimate.com/v1/badges/604a8f3a996c008cb2ae/maintainability)](https://codeclimate.com/github/pboling/include_with_respect/maintainability) |
 | code triage             |  [![Open Source Helpers](https://www.codetriage.com/pboling/include_with_respect/badges/users.svg)](https://www.codetriage.com/pboling/include_with_respect) |
 | homepage                |  [on Github.com][homepage], [on Railsbling.com][blogpage] |
-| documentation           |  [on RDoc.info][documentation] |
-| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo), [🌹](https://nationalprogressiveparty.org) |
+| documentation           |  [on RubyDoc.info][documentation] |
+| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
 
 ## Installation
 
@@ -158,7 +158,7 @@ For example:
 [railsbling]: http://www.railsbling.com
 [peterboling]: http://www.peterboling.com
 [coderwall]: http://coderwall.com/pboling
-[documentation]: http://rdoc.info/github/pboling/gem_bench/frames
+[documentation]: http://rubydoc.info/gems/gem_bench
 [homepage]: https://github.com/pboling/gem_bench
 [mit]: https://opensource.org/licenses/MIT
 [rubygems]: https://rubygems.org/gems/include_with_respect
